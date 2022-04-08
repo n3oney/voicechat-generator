@@ -1,0 +1,9 @@
+[
+  [
+    "categoryId",
+    {
+      "name": "voiceChannelName",
+      "limit": 2
+    }
+  ]
+]

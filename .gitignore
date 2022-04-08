@@ -1,0 +1,7 @@
+.husky/
+dist/
+node_modules/
+*.tsbuildinfo
+*.env
+*.envrc
+config.json
