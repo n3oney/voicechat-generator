@@ -51,7 +51,7 @@ async function checkNewChannel(config: Config, channel: VoiceChannel) {
   });
 }
 
-readFile(join(__dirname, 'config.json'), 'utf8').then((configString) => {
+readFile(join(__dirname, '../config.json'), 'utf8').then((configString) => {
   const config = new Map(JSON.parse(configString)) as Config;
   if (!config || config.size === 0) throw new Error('Invalid config!');
 
